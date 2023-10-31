@@ -263,8 +263,11 @@ if __name__ == "__main__":
 
     # my keyword
     keywords = dict()
-    keywords["tods"] = "ti:\"task-oriented dialogue\"" + "OR" + "ti:\"Dialogue State Tracking\"" \
-                        + "OR" + "ti:\" DST\"" + "OR" + "ti:\"intent detection\"" + "OR" + "ti:\"slot filling\""
+    
+    # keywords["tods"] = "ti:\"task-oriented dialogue\"" + "OR" + "ti:\"Dialogue State Tracking\"" \
+    #                     + "OR" + "ti:\" DST\"" + "OR" + "ti:\"intent detection\"" + "OR" + "ti:\"slot filling\""
+    
+    keywords["tods"] = "ti:\"task-oriented dialogue\""
 
     for topic, keyword in keywords.items():
         # topic = keyword.replace("\"","")
@@ -277,6 +280,7 @@ if __name__ == "__main__":
         data_collector.append(data)
         data_collector_web.append(data_web)
 
+        print(data_collector)
         print("\n")
 
     # 1. update README.md file
