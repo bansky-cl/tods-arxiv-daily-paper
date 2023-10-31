@@ -267,7 +267,7 @@ if __name__ == "__main__":
     # keywords["tods"] = "ti:\"task-oriented dialogue\"" + "OR" + "ti:\"Dialogue State Tracking\"" \
     #                     + "OR" + "ti:\" DST\"" + "OR" + "ti:\"intent detection\"" + "OR" + "ti:\"slot filling\""
     
-    keywords["tods"] = "ti:\"task-oriented dialogue\""
+    keywords["diffusion"] = "ti:\"diffusion\""
 
     for topic, keyword in keywords.items():
         # topic = keyword.replace("\"","")
