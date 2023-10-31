@@ -198,9 +198,9 @@ def json_to_md(filename, md_filename,
 
         # Add: table of contents , no use it
         if use_tc == True:
-            # f.write("<details>\n")
-            # f.write("  <summary>Table of Contents</summary>\n")
-            # f.write("  <ol>\n")
+            f.write("<details>\n")
+            f.write("  <summary>Table of Contents</summary>\n")
+            f.write("  <ol>\n")
             for keyword in data.keys():
                 day_content = data[keyword]
                 if not day_content:
@@ -264,10 +264,10 @@ if __name__ == "__main__":
     # my keyword
     keywords = dict()
     
-    keywords["task-oriented dialogue"] = "ti:\"task-oriented dialogue\"" + "OR" + "ti:\"Dialogue State Tracking\"" 
+    keywords["task oriented dialogue"] = "ti:\"task oriented dialogue\"" 
     keywords["Dialogue State Tracking"] = "ti:\"Dialogue State Tracking\"" + "OR" + "ti:\"DST\"" 
     keywords["Intent Detection"] = "ti:\"intent detection\""
-    keywords['slot filling'] = "ti:\"slot filling\""
+    # keywords['slot filling'] = "ti:\"slot filling\""
     
     for topic, keyword in keywords.items():
         # topic = keyword.replace("\"","")
