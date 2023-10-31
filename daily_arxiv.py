@@ -265,8 +265,8 @@ if __name__ == "__main__":
     keywords = dict()
     
     keywords["task oriented dialogue"] = "ti:\"task oriented dialogue\"" 
-    keywords["Dialogue State Tracking"] = "ti:\"Dialogue State Tracking\"" + "OR" + "ti:\"DST\"" 
-    keywords["Intent Detection"] = "ti:\"intent detection\""
+    # keywords["Dialogue State Tracking"] = "ti:\"Dialogue State Tracking\"" + "OR" + "ti:\"DST\"" 
+    # keywords["Intent Detection"] = "ti:\"intent detection\""
     # keywords['slot filling'] = "ti:\"slot filling\""
     
     for topic, keyword in keywords.items():
