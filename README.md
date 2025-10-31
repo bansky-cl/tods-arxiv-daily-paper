@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2025.10.20
+## Updated on 2025.10.31
 
 <details>
   <summary>Table of Contents</summary>
@@ -152,7 +152,7 @@
 |**2018-07-25**|**Chat Detection in an Intelligent Assistant: Combining Task-oriented and Non-task-oriented Spoken Dialogue Systems**|cs.CL|Recently emerged intelligent assistants on smartphones and home electronics (e.g., Siri and Alexa) can be seen as novel hybrids of domain-specific task-oriented spoken dialogue systems and open-domain non-task-oriented ones. To realize such hybrid dialogue systems, this paper investigates determining whether or not a user is going to have a chat with the system. To address the lack of benchmark datasets for this task, we construct a new dataset consisting of 15; 160 utterances collected from the real log data of a commercial intelligent assistant (and will release the dataset to facilitate future research activity). In addition, we investigate using tweets and Web search queries for handling open-domain user utterances, which characterize the task of chat detection. Experiments demonstrated that, while simple supervised methods are effective, the use of the tweets and search queries further improves the F1-score from 86.21 to 87.53. |[1705.00746v2](http://arxiv.org/abs/1705.00746v2)|null|
 |**2012-03-05**|**Establishing linguistic conventions in task-oriented primeval dialogue**|cs.CL, cs.AI, cs.MA|In this paper, we claim that language is likely to have emerged as a mechanism for coordinating the solution of complex tasks. To confirm this thesis, computer simulations are performed based on the coordination task presented by Garrod & Anderson (1987). The role of success in task-oriented dialogue is analytically evaluated with the help of performance measurements and a thorough lexical analysis of the emergent communication system. Simulation results confirm a strong effect of success mattering on both reliability and dispersion of linguistic conventions. |[1203.0512v1](http://arxiv.org/abs/1203.0512v1)|null|
 
-<p align=right>(<a href=#Updated-on-20251020>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20251031>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/tods-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/tods-arxiv-daily-paper/graphs/contributors
