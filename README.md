@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2026.09.04
+## Updated on 2026.09.05
 
 > Showing the 100 newest papers submitted in 2017 or later. The complete archive is stored in [docs/arxiv-daily.json](docs/arxiv-daily.json).
 
@@ -119,7 +119,7 @@
 |**2023-04-25**|**Intent Induction from Conversations for Task-Oriented Dialogue Track at DSTC 11**|cs.CL|With increasing demand for and adoption of virtual assistants, recent work has investigated ways to accelerate bot schema design through the automatic induction of intents or the induction of slots and dialogue states. However, a lack of dedicated benchmarks and standardized evaluation has made progress difficult to track and comparisons between systems difficult to make. This challenge track, held as part of the Eleventh Dialog Systems Technology Challenge, introduces a benchmark that aims to evaluate methods for the automatic induction of customer intents in a realistic setting of customer service interactions between human agents and customers. We propose two subtasks for progressively tackling the automatic induction of intents and corresponding evaluation methodologies. We then present three datasets suitable for evaluating the tasks and propose simple baselines. Finally, we summarize the submissions and results of the challenge track, for which we received submissions from 34 teams. |[2304.12982v1](http://arxiv.org/abs/2304.12982v1)|**[link](https://github.com/amazon-science/dstc11-track2-intent-induction)**|
 |**2023-04-03**|**Dialog-to-Actions: Building Task-Oriented Dialogue System via Action-Level Generation**|cs.CL|End-to-end generation-based approaches have been investigated and applied in task-oriented dialogue systems. However, in industrial scenarios, existing methods face the bottlenecks of controllability (e.g., domain-inconsistent responses, repetition problem, etc) and efficiency (e.g., long computation time, etc). In this paper, we propose a task-oriented dialogue system via action-level generation. Specifically, we first construct dialogue actions from large-scale dialogues and represent each natural language (NL) response as a sequence of dialogue actions. Further, we train a Sequence-to-Sequence model which takes the dialogue history as input and outputs sequence of dialogue actions. The generated dialogue actions are transformed into verbal responses. Experimental results show that our light-weighted method achieves competitive performance, and has the advantage of controllability and efficiency. |[2304.00884v1](http://arxiv.org/abs/2304.00884v1)|null|
 
-<p align=right>(<a href=#Updated-on-20260904>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20260905>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/tods-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/tods-arxiv-daily-paper/graphs/contributors
