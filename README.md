@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2026.10.20
+## Updated on 2026.10.21
 
 > Showing the 100 newest papers submitted in 2017 or later. The complete archive is stored in [docs/arxiv-daily.json](docs/arxiv-daily.json).
 
@@ -119,7 +119,7 @@
 |**2023-05-05**|**Rescue Conversations from Dead-ends: Efficient Exploration for Task-oriented Dialogue Policy Optimization**|cs.HC, cs.CL|Training a dialogue policy using deep reinforcement learning requires a lot of exploration of the environment. The amount of wasted invalid exploration makes their learning inefficient. In this paper, we find and define an important reason for the invalid exploration: dead-ends. When a conversation enters a dead-end state, regardless of the actions taken afterward, it will continue in a dead-end trajectory until the agent reaches a termination state or maximum turn. We propose a dead-end resurrection (DDR) algorithm that detects the initial dead-end state in a timely and efficient manner and provides a rescue action to guide and correct the exploration direction. To prevent dialogue policies from repeatedly making the same mistake, DDR also performs dialogue data augmentation by adding relevant experiences containing dead-end states. We first validate the dead-end detection reliability and then demonstrate the effectiveness and generality of the method by reporting experimental results on several dialogue datasets from different domains. |[2305.03262v1](http://arxiv.org/abs/2305.03262v1)|null|
 |**2023-04-25**|**Intent Induction from Conversations for Task-Oriented Dialogue Track at DSTC 11**|cs.CL|With increasing demand for and adoption of virtual assistants, recent work has investigated ways to accelerate bot schema design through the automatic induction of intents or the induction of slots and dialogue states. However, a lack of dedicated benchmarks and standardized evaluation has made progress difficult to track and comparisons between systems difficult to make. This challenge track, held as part of the Eleventh Dialog Systems Technology Challenge, introduces a benchmark that aims to evaluate methods for the automatic induction of customer intents in a realistic setting of customer service interactions between human agents and customers. We propose two subtasks for progressively tackling the automatic induction of intents and corresponding evaluation methodologies. We then present three datasets suitable for evaluating the tasks and propose simple baselines. Finally, we summarize the submissions and results of the challenge track, for which we received submissions from 34 teams. |[2304.12982v1](http://arxiv.org/abs/2304.12982v1)|**[link](https://github.com/amazon-science/dstc11-track2-intent-induction)**|
 
-<p align=right>(<a href=#Updated-on-20261020>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20261021>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/tods-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/tods-arxiv-daily-paper/graphs/contributors
