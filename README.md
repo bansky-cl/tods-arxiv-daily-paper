@@ -3,7 +3,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-## Updated on 2026.10.27
+## Updated on 2026.10.28
 
 > Showing the 100 newest papers submitted in 2017 or later. The complete archive is stored in [docs/arxiv-daily.json](docs/arxiv-daily.json).
 
@@ -119,7 +119,7 @@
 |**2023-05-23**|**Towards Asking Clarification Questions for Information Seeking on Task-Oriented Dialogues**|cs.CL, cs.IR|Task-oriented dialogue systems aim at providing users with task-specific services. Users of such systems often do not know all the information about the task they are trying to accomplish, requiring them to seek information about the task. To provide accurate and personalized task-oriented information seeking results, task-oriented dialogue systems need to address two potential issues: 1) users' inability to describe their complex information needs in their requests; and 2) ambiguous/missing information the system has about the users. In this paper, we propose a new Multi-Attention Seq2Seq Network, named MAS2S, which can ask questions to clarify the user's information needs and the user's profile in task-oriented information seeking. We also extend an existing dataset for task-oriented information seeking, leading to the \ourdataset which contains about 100k task-oriented information seeking dialogues that are made publicly available\footnote{Dataset and code is available at \href{https://github.com/sweetalyssum/clarit}{https://github.com/sweetalyssum/clarit}.}. Experimental results on \ourdataset show that MAS2S outperforms baselines on both clarification question generation and answer prediction. |[2305.13690v1](http://arxiv.org/abs/2305.13690v1)|null|
 |**2023-05-19**|**Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue**|cs.CL, cs.AI|The focus of this work is to investigate unsupervised approaches to overcome quintessential challenges in designing task-oriented dialog schema: assigning intent labels to each dialog turn (intent clustering) and generating a set of intents based on the intent clustering methods (intent induction). We postulate there are two salient factors for automatic induction of intents: (1) clustering algorithm for intent labeling and (2) user utterance embedding space. We compare existing off-the-shelf clustering models and embeddings based on DSTC11 evaluation. Our extensive experiments demonstrate that the combined selection of utterance embedding and clustering method in the intent induction task should be carefully considered. We also present that pretrained MiniLM with Agglomerative clustering shows significant improvement in NMI, ARI, F1, accuracy and example coverage in intent induction tasks. The source codes are available at https://github.com/Jeiyoon/dstc11-track2. |[2212.02021v4](http://arxiv.org/abs/2212.02021v4)|**[link](https://github.com/jeiyoon/dstc11-track2)**|
 
-<p align=right>(<a href=#Updated-on-20261027>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20261028>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/bansky-cl/tods-arxiv-daily-paper.svg?style=for-the-badge
 [contributors-url]: https://github.com/bansky-cl/tods-arxiv-daily-paper/graphs/contributors
